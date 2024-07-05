@@ -39,3 +39,11 @@
 // let nigativeValue = -age;
 // console.log(nigativeValue);
 
+let firstName = "John";
+let lastName = "Doe";
+
+let text = `Welcome ${firstName}, ${lastName}!`;
+// Substitutions Template Strings allow variables in strings:
+
+console.log(text);
+
