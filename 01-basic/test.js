@@ -64,3 +64,6 @@
 }
 console.log(y);
 // Here x is 10
+
+// {} is called scope. var never solved the scope problem.
+
