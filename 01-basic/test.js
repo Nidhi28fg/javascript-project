@@ -16,7 +16,7 @@
 
 // let carName;
 // console.log(carName);
-// // After the declaration, the variable has no value (technically it is undefined).
+// // After the declare variable, There is no value (technically it is undefined).
 
 
 // var carName1 = "Volvo";
@@ -56,7 +56,7 @@
 // // Here x is 10
 
 
-// if There is no value in globle let. then 2nd console.log never excess block code x's value.
+// if There is no value in globle let. then 2nd console.log never access block code x's value.
 {  
   let y = 2;
   console.log(y);
