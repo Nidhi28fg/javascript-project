@@ -21,7 +21,7 @@ console.log(Nidhi)
 // void operator
 let result = void 0; // result is undefined
 
-Ternary Operator
+// Ternary Operator
 
 let a = 27;
 let b =76;
