@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect Example</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+        }
+
+        button {
+            position: relative;
+            padding: 20px 40px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #222;
+            border: 2px solid #0ff;
+            border-radius: 8px;
+            cursor: pointer;
+            outline: none;
+            transition: filter 0.2s ease;
+        }
+
+        button:hover {
+            filter: drop-shadow(0 0 20px #0ff);
+        }
+
+        .stars {
+            position: absolute;
+            display: none;
+            top: 40%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            color: #fffdef;
+            font-size: 24px;
+        }
+
+        .stars::before,
+        .stars::after {
+            content: '⭐ ⭐';
+            position: absolute;
+        }
+
+        .stars::before {
+            top: -40px;
+            left: -60px;
+        }
+
+        .stars::after {
+            bottom: -40px;
+            right: -60px;
+        }
+
+        button:hover .stars {
+            display: block;
+            filter: drop-shadow(0 0 10px #fffdef);
+        }
+
+    </style>
+</head>
+<body>
+    <button>
+        Hover Me
+        <div class="stars">⭐</div>
+    </button>
+</body>
+</html>
