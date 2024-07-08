@@ -37,4 +37,5 @@ console.log("B ", myArr);/* origanal data m change nhi hua hai*/
 const myn2 = myArr.splice(1, 3) /* COUNT START FROM INDEX 1 AND END ON 3 INDEX */
 console.log("C ", myArr); /* here changed in orginal data,  */
 console.log(myn2);
+
 console.log("d ", myArr); /* here changed in orginal data , orignal array manupulate ho jata hai */
