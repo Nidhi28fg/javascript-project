@@ -11,3 +11,7 @@ console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 console.log(Math.floor(Math.random()))
 console.log(Math.floor(Math.random() * (max - min + 1)))
 console.log(Math.random() * (max - min + 1))
+
+// date
+const datea = new Date();
+console.log(datea.toLocaleDateString());
