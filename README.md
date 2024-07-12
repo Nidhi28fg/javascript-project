@@ -11,3 +11,5 @@ Data Type	typeof returns "undefined"
 Intentional absence of an object value
 let y = null;
 typeof returns "object" (historical reason)
+
+control d use for create duplicate.
