@@ -11,5 +11,8 @@ Intentional absence of an object value
 let y = null;
 typeof returns "object" (historical reason)
 
-<h2>control d use for create duplicate.</h2>
-<h2> lorem5 - this method helps to write the 5 words of sentence. you can increace and decrece number. if you increase the number... lorem create number of words </h2>
+<h2>control d</h2> 
+use for create duplicate.
+
+<h2> lorem5 </h2> 
+  this method helps to write the 5 words of sentence. you can increace and decrece number. if you increase the number... lorem create number of words
