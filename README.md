@@ -473,3 +473,4 @@ Script source maps and how do they assist in debugging?**
       sessionStorage.removeItem('key');
       sessionStorage.clear();
       ```
+link for interview - https://www.interviewbit.com/javascript-interview-questions/#arrow-functions
