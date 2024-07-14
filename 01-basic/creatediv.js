@@ -10,8 +10,10 @@
     
 </body>
 <script>
+    /* how to create a div by using javascript*/
     const div = document.createElement('div')  // to create element like div, h1, h2 p
     console.log(div);
+
     div.className = "main"                    //to create class in div
     div.id = Math.round(Math.random() * 10 + 1) // to create id in div
     div.setAttribute("title", "generated title") // to add attribute in div
